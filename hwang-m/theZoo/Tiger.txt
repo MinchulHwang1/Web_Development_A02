@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tiger description</title>
+</head>
+
+    <body>
+<h2>The tiger is the king of the jungle and is brave!</h2>
+
+<h4>Did you know?</h4>
+
+<p>
+- Tigers usually have a habit of walking alone in the mountains, so areas where they frequently appear are very dangerous.<br>
+- The tiger is the animal with the oldest and largest history in Asia.<br>
+- It is said that the Siberian tiger, the largest tiger species, can carry a bull its size without showing any drag marks.<br>
+- Even though tigers are a type of cat, they have a unique habit of liking water.</p><br>
+</html>

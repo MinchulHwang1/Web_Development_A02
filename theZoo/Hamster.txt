@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hemster description</title>
+</head>
+
+    <body>
+<h2>Hamsters are great animals because they are easy to care!</h2>
+<br>
+<h4>Did you know?</h4>
+
+<p>
+- The name of the hamster is derived from the German word 'Hamstern' to store food, in reference to its habit of storing food.<br>
+- Hamsters are very popular animals because they are easy to care for and small in size.<br>
+- Hamsters have free-spirited personalities, so narrow cages can be stressful for them.<br>
+- It is one of the species that still grows naturally in various parts of the world.
+</p>
+<br>
+</body>
+</html>

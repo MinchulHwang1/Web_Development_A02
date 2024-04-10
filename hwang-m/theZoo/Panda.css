@@ -1,0 +1,40 @@
+body
+{
+	background-color:       #f4f4f4;
+}
+h1
+{
+	text-align: center;
+	font-style:normal;
+	color: rgb(65, 120, 174);
+}
+h2{
+	font-style :italic;
+	font-size: 20px;
+	color: rgb(5, 27, 49);
+}
+h3{
+	font-style :italic;
+	font-size: 18px;
+	color: rgb(23, 216, 155);
+}
+h4{
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(5, 27, 49);
+}
+
+td 
+{
+    padding:                5px;
+	color: rgb(58, 86, 86);
+    text-align:             left;
+    font-family:            Arial;
+    font-size:              15px;
+}
+p
+{
+	color: rgb(58, 86, 86);
+  font-family:              Verdana;
+  font-size:                15px;
+}

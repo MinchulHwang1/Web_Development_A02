@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat description</title>
+</head>
+
+    <body>
+<h2>Cats are the most cutest animals in the world!</h>
+<br>
+<h4>Did you know?</h4>
+
+
+<p>
+- Cats think the human beings are their friend.<br>
+- Cats have been tried to be tamed since ancient times, but they are still being tamed.<br>
+- Cats still have a hunting instinct.<br>
+- The reason cats meow is because they still think they are babies.<br>
+- Cats take good care of themselves, so much so that they only need to be bathed once a year.</p><br>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+    This source is basic source of php animal program through HTML code.
+    It includes CSS style code using POST method.
+    It can get information from user about user name and select animal
+    and send that infromation through GET method to animal.php
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PHP-zoo</title>
+        <!-- To set internal CSS style -->
+        <style type="text/css">
+            .fontColor{
+                color:olive;
+            };
+            
+        </style>
+        <script type = "text/JavaScript">
+        var next = 0;
+        
+        
+        // ------- Function Comment -------
+        // Name     : SubmitAni()
+        // Purpose  : This function check the name and animal value is available or not and sent to animan.exe as GET method
+        // Input    : None
+        // Output   : Messages that fits on each situation
+        // Returns  : None
+        function SubmitAni(){
+            var letterNSpace = /^[<A-Za-z0-9></A-Za-z0-9>\s]+$/;            // Check the letter form
+            var whichName = document.getElementById("Name").value;          // Save Name into whichName
+            var whichAnimal = document.getElementById("Animal").value;      // Save animal into whichAnimal
+            document.getElementById("inputNameError").innerHTML = " ";
+            document.getElementById("inputAnimalError").innerHTML = " ";
+
+            if(whichName.length==0 && whichAnimal == "default"){
+                if(next == 0){ 
+                    // for the first time to check the user name
+                    document.getElementById("inputNameError").innerHTML = "You must provide a name.";
+                }
+                else{
+                    // After first time, and when user choose nothing and erase their own name
+                    document.getElementById("inputNameError").innerHTML = "You must provide a name.";
+                    document.getElementById("inputAnimalError").innerHTML = "You must choose an animal.";
+                }
+            }
+            else if(whichName.length != 0 && whichAnimal == "default"){
+                // Animal selection is open when user name is vaild.
+                document.getElementById("inputUserAnimal").style.display= "block";
+                if(next == 0){
+                    document.getElementById("inputAnimalError").innerHTML = " ";
+                }
+                else if(next == 1){
+                    document.getElementById("inputNameError").innerHTML = " ";
+                    document.getElementById("inputAnimalError").innerHTML = "You must choose an animal.";
+                }
+                else{
+                    document.getElementById("inputNameError").innerHTML = " ";
+                    document.getElementById("inputAnimalError").innerHTML = "You must choose an animal.";
+                }
+            }
+            else if(whichName.length == 0 && whichAnimal != "default"){
+                // When user erased their name and selected the animal
+                document.getElementById("inputNameError").innerHTML = "You must provide a name.";
+                document.getElementById("inputAnimalError").innerHTML = "";
+                
+            }
+            else{
+                // when User input name and selected the animal
+                document.cgi_zoo.submit();
+            }
+           
+            next++;
+        }
+        </script>
+    </head>
+
+    <body id = "inputUserName" style="text-align: center;">
+        <form name="cgi_zoo" action = "./animals.php" method="POST">
+            <h1 class="fontColor">Pet Facts!</h1>
+            <hr>
+            <div style="font-style: italic;">
+            <table width = "100%;" style="height: 300px;">
+                <tbody>
+                    <tr style="height: 100px;">
+                        <td id = "inputUserName" style=" display: block; font-style: italic; text-align: center; height: 50px;">
+                        
+                            What's your name?
+                        <br>
+                        <input type = "text" size="15" name="UserName" id="Name"/>
+                        <div id = "inputNameError" style="color: red;"></div>
+                        
+                        </td>
+                    </tr>
+                       
+                    <tr style="height: 100px;">
+                        <td id = "inputUserAnimal" style="font-style: italic; display: none; text-align: center; height: 50px;">
+                        
+                            What is your favorite Pet?
+                        <br>
+                        <select id = "Animal" name="AnimalSelect">
+                            <option value ="default">-- Make an Animal Choice --</option>
+                            <option value ="Cat">1. Cat</option>
+                            <option value ="Dog">2. Dog</option>
+                            <option value ="Panda">3. Panda</option>
+                            <option value ="Lion">4. Lion</option>
+                            <option value ="Tiger">5. Tiger</option>
+                            <option value ="Hamster">6. Hamster</option>
+                        </select>
+                        <div id = "inputAnimalError" Style="color:red;""></div>
+                        <br><br>
+                        
+                        </td>
+
+                    </tr>
+
+                </tbody>
+            </table> 
+                <br><br><br>
+                
+                <input type = "button" value="Search for My Animal" width="50" id="Submit" name="submitAnimal" onClick="SubmitAni()"> 
+            
+                <hr>
+            
+        </form>
+    </body>
+
+
+
+
+</html>

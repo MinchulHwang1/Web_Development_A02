@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lion description</title>
+</head>
+
+    <body>
+<h2>Lion is known as the King of the animals!</h2>
+<br>
+<h4>Did you know?</h4>
+
+<p>
+- The lion is known as the king of animals, but in fact, there are many animals that are stronger than the lion.<br>
+- In fact, it is said that the lion's hunting success rate is less than 20 percent.<br>
+- They mainly live in Africa and live in groups.<br>
+- There's a lot of talk about who would win if a lion and a tiger fight, but in reality, they can't meet each other. Because the places they live are different.
+</p><br>
+</body>
+</html>
+
+
+

@@ -1,0 +1,39 @@
+body
+{
+	background-color:       #7facb4;
+}
+h1
+{
+	text-align: center;
+	font-style:normal;
+	color: rgb(0, 89, 255);
+}
+h2{
+	font-style :unset;
+	font-size: 20px;
+	color: rgb(0, 89, 255);
+}
+h3{
+	font-style :initial;
+	font-size: 18px;
+	color: rgb(108, 50, 170);
+}
+h4{
+	font-style: unset;
+	font-size: 20px;
+	color: rgb(0, 89, 255);
+}
+
+td 
+{
+    padding:                5px;
+	
+    text-align:             left;
+    font-family:            Calibri;
+    font-size:              15px;
+}
+p
+{
+  font-family:              Verdana;
+  font-size:                15px;
+}

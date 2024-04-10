@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dog description</title>
+</head>
+
+    <body>
+<h2>Dogs are the most friendly animals for human!</h2>
+<br>
+<h4>Did you know?</h4>
+
+<p>
+- Dogs live with the love and attention of their owners.<br>
+- Dogs reward their owners with loyalty and love.<br>
+- Dogs are animals that show their emotions well.<br>
+- The reason we need to walk dogs is because they get vitality from the smells they smell while walking.
+</p>
+<br>
+</body>
+</html>
+

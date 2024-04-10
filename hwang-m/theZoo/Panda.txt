@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Panda description</title>
+</head>
+
+    <body>
+<h2>Pandas are animals that give people a sense of cuteness!</h2>
+<br>
+<h4>Did you know?</h4>
+
+<p>
+- Currently, pandas are an endangered species, so all pandas in the world are managed in China.<br>
+- It is said that pandas feed on bamboo and do not eat meat.<br>
+- As a result, pandas sleep for more than 16 hours a day to reduce energy consumption.<br>
+- Also, pandas have a habit of sleeping on trees.</p><br>
+</body>
+</html>
+
+
+
